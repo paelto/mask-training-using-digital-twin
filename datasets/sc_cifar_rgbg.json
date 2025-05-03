@@ -1,0 +1,16 @@
+{
+  "INPUT_SHAPE": [100, 100],
+  "OUTPUT_SHAPE": [64, 128],
+  "TRAIN_FRACTION": 0.9,
+  "TEST_FRACTION": 0.1,
+  "N_SAMPLES_TRAIN": 216000,
+  "N_SAMPLES_TEST": 24000,
+  "INPUT_FOLDERS": ["datasets/20241101_sanity checks/input_data/cifar10_r_gTrue_rot0__100_100/",
+                    "datasets/20241101_sanity checks/input_data/cifar10_g_gTrue_rot0__100_100/",
+                    "datasets/20241101_sanity checks/input_data/cifar10_b_gTrue_rot0__100_100/",
+                    "datasets/20241101_sanity checks/input_data/cifar10_gray_gTrue_rot0__100_100/"],
+  "OUTPUT_FOLDERS": ["datasets/20241101_sanity checks/data/cifar10_r_gTrue_rot0_/",
+                     "datasets/20241101_sanity checks/data/cifar10_g_gTrue_rot0_/",
+                     "datasets/20241101_sanity checks/data/cifar10_b_gTrue_rot0_/",
+                     "datasets/20241101_sanity checks/data/cifar10_gray_gTrue_rot0_/"]
+}

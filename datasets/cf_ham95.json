@@ -1,0 +1,10 @@
+{
+  "INPUT_SHAPE": [100, 100],
+  "OUTPUT_SHAPE": [64, 128],
+  "TRAIN_FRACTION": 0.9,
+  "TEST_FRACTION": 0.1,
+  "N_SAMPLES_TRAIN": 9720,
+  "N_SAMPLES_TEST": 2000,
+  "INPUT_FOLDERS": ["datasets/20241108_cifar10 and friends/input_data/ham95_shuffled_gTrue_rot0__100_100/"],
+  "OUTPUT_FOLDERS": ["datasets/20241108_cifar10 and friends/data/ham95_shuffled_gTrue_rot0_/"]
+}

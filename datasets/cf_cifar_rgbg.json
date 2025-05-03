@@ -1,0 +1,16 @@
+{
+  "INPUT_SHAPE": [100, 100],
+  "OUTPUT_SHAPE": [64, 128],
+  "TRAIN_FRACTION": 0.98,
+  "TEST_FRACTION": 0.02,
+  "N_SAMPLES_TRAIN": 235000,
+  "N_SAMPLES_TEST": 5000,
+  "INPUT_FOLDERS": ["datasets/20241108_cifar10 and friends/input_data/cifar10_r_gTrue_rot0__100_100/",
+                    "datasets/20241108_cifar10 and friends/input_data/cifar10_g_gTrue_rot0__100_100/",
+                    "datasets/20241108_cifar10 and friends/input_data/cifar10_b_gTrue_rot0__100_100/",
+                    "datasets/20241108_cifar10 and friends/input_data/cifar10_gray_gTrue_rot0__100_100/"],
+  "OUTPUT_FOLDERS": ["datasets/20241108_cifar10 and friends/data/cifar10_r_gTrue_rot0_/",
+                     "datasets/20241108_cifar10 and friends/data/cifar10_g_gTrue_rot0_/",
+                     "datasets/20241108_cifar10 and friends/data/cifar10_b_gTrue_rot0_/",
+                     "datasets/20241108_cifar10 and friends/data/cifar10_gray_gTrue_rot0_/"]
+}

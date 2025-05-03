@@ -1,0 +1,8 @@
+torch
+torchvision
+torchaudio
+matplotlib
+opencv-python
+tqdm
+optuna
+tensorboard

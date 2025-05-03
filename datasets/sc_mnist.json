@@ -1,0 +1,12 @@
+{
+  "INPUT_SHAPE": [100, 100],
+  "OUTPUT_SHAPE": [64, 128],
+  "TRAIN_FRACTION": 0.9,
+  "TEST_FRACTION": 0.1,
+  "N_SAMPLES_TRAIN": 72000,
+  "N_SAMPLES_TEST": 8000,
+  "INPUT_FOLDERS": ["datasets/20241101_sanity checks/input_data/mnist_rot0__100_100/",
+                    "datasets/20241101_sanity checks/input_data/mnist_rot0_late__100_100/"],
+  "OUTPUT_FOLDERS": ["datasets/20241101_sanity checks/data/mnist_rot0_/",
+                     "datasets/20241101_sanity checks/data/mnist_rot0_late_/"]
+}

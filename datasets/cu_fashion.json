@@ -1,0 +1,10 @@
+{
+  "INPUT_SHAPE": [100, 100],
+  "OUTPUT_SHAPE": [64, 128],
+  "TRAIN_FRACTION": 0.9,
+  "TEST_FRACTION": 0.1,
+  "N_SAMPLES_TRAIN": 63000,
+  "N_SAMPLES_TEST": 7000,
+  "INPUT_FOLDERS": ["datasets/custom/input_data/fashion_100_100/"],
+  "OUTPUT_FOLDERS": ["datasets/custom/input_data/fashion_100_100/"]
+}
